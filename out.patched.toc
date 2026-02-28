@@ -1,0 +1,95 @@
+\xpg@aux {}{german}
+\contentsline {section}{\numberline {1}Brand Kampagnenkonzept und Strategie für Monkey4Business}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}1. Markenidentität und Kernbotschaft}{5}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Markenname: Monkey4Business}{5}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Marken-Essenz: Agilität trifft auf Expertise -- Ihre digitale Evolution.}{5}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Kernbotschaft (Tagline): ``Monkey4Business: Ihre digitale Evolution. Agil. Innovativ. Maßgeschneidert.''}{5}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Werte von Monkey4Business:}{5}{subsubsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.2}2. Zielgruppenansprache und Positionierung}{6}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Positionierungsaussage:}{6}{subsubsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.3}3. Kampagnenziele}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}4. Strategische Säulen der Kampagne}{6}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}a) Thought Leadership und Content Marketing}{7}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}b) Digitale Präsenz und Performance Marketing}{7}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}c) Referenzen und Kundenbeziehungen}{7}{subsubsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.5}5. Tone of Voice}{7}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}6. Messung des Erfolgs}{7}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Brand Kampagne für Monkey4Business}{9}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Zusammenfassung}{9}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Markenidentität}{9}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Markenessenz}{9}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Kernbotschaft (Tagline)}{9}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Markenwerte}{9}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}Zielgruppenanalyse}{9}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Häufige Schmerzpunkte}{10}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}Visuelle Identität}{10}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Farbpalette}{10}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Typografie}{10}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Bildsprache}{10}{subsubsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.5}Kampagnenstrategie}{10}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}a) Thought Leadership und Content Marketing}{10}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}b) Digitale Präsenz und Performance Marketing}{10}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}c) Referenzen und Kundenbeziehungen}{11}{subsubsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.6}Kampagnenmaterialien}{11}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Digitale Materialien}{11}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Offline-Materialien}{11}{subsubsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.7}Umsetzungsplan}{11}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Zeitplan}{11}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}Budget-Allokation}{11}{subsubsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.8}Erfolgsmessung}{12}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Nächste Schritte}{12}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Zielgruppenanalyse und Marktpositionierung für\linebreak Monkey4Business}{13}{section.3}%
+\contentsline {subsection}{\numberline {3.1}1. Zielgruppensegmentierung}{13}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}2. Häufige Schmerzpunkte von Unternehmen}{13}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}3. Marktpositionierungsstrategien für Monkey4Business}{14}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Referenzen}{14}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Kampagnenmaterialien und Umsetzungsplan für Monkey4Business}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}1. Kampagnenmaterialien}{15}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}1.1 Digitale Materialien}{15}{subsubsection.4.1.1}%
+\contentsline {paragraph}{Website-Relaunch}{15}{paragraph*.1}%
+\contentsline {paragraph}{Content Marketing Materialien}{15}{paragraph*.2}%
+\contentsline {paragraph}{Social Media Materialien}{16}{paragraph*.3}%
+\contentsline {subsubsection}{\numberline {4.1.2}1.2 Offline-Materialien}{16}{subsubsection.4.1.2}%
+\contentsline {paragraph}{Printmaterialien}{16}{paragraph*.4}%
+\contentsline {paragraph}{Event-Materialien}{16}{paragraph*.5}%
+\contentsline {subsection}{\numberline {4.2}2. Umsetzungsplan}{16}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}2.1 Zeitplan}{16}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}2.2 Budget-Allokation}{17}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}2.3 Verantwortlichkeiten}{17}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}2.4 Erfolgsmessung und KPIs}{18}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}2.5 Risikomanagement}{18}{subsubsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.3}3. Nächste Schritte}{18}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Visuelle Identität für Monkey4Business}{20}{section.5}%
+\contentsline {subsection}{\numberline {5.1}1. Logo}{20}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Logo-Varianten}{20}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Logo-Freiraum}{20}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Mindestgröße}{20}{subsubsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.2}2. Farbpalette}{20}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Primärfarben}{20}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Sekundärfarben}{21}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Farbhierarchie}{21}{subsubsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.3}3. Typografie}{21}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Primäre Schriftart}{21}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Sekundäre Schriftart}{21}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Web-Schriftarten}{22}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Schrifthierarchie}{22}{subsubsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.4}4. Bildsprache}{22}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Fotografie}{22}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Illustrationen und Icons}{22}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}Bildbearbeitung}{23}{subsubsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.5}5. Designelemente}{23}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Raster und Layout}{23}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Grafische Elemente}{23}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Animation und Bewegung (für digitale Medien)}{23}{subsubsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.6}6. Anwendungsbeispiele}{23}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Digitale Anwendungen}{23}{subsubsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.2}Print-Anwendungen}{24}{subsubsection.5.6.2}%
+\contentsline {subsubsection}{\numberline {5.6.3}Werbematerialien}{24}{subsubsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.7}7. Do's and Dont's}{24}{subsection.5.7}%
+\contentsline {subsubsection}{\numberline {5.7.1}Do's}{24}{subsubsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.2}Dont's}{24}{subsubsection.5.7.2}%
+\contentsline {section}{\numberline {6}Rechercheergebnisse: Software- und Webentwicklungsbranche \& Branding-Strategien}{25}{section.6}%
+\contentsline {subsection}{\numberline {6.1}1. Branchentrends (Software- und Webentwicklung)}{25}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}2. Branding-Strategien für Software- und Webentwicklungsunternehmen}{25}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}3. Zielgruppenanalyse für Webentwicklung}{26}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Referenzen}{26}{subsection.6.4}%

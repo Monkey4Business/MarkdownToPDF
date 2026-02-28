@@ -1,0 +1,204 @@
+\documentclass[$if(fontsize)$$fontsize$$endif$]{article}
+
+% -----------------------------
+% Layout
+% -----------------------------
+\usepackage[margin=2.0cm]{geometry}
+
+% Header spacing
+\setlength{\headheight}{33pt}
+\setlength{\headsep}{22pt}
+
+% Paragraphs
+\usepackage{ragged2e}
+\RaggedRight
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% -----------------------------
+% Language / Hyphenation
+% -----------------------------
+\usepackage[ngerman]{babel}
+
+% Monkey4Business must NEVER be hyphenated (hyphenation exception with no breakpoints)
+\hyphenation{Monkey4Business}
+
+% -----------------------------
+% Microtype (XeLaTeX-safe)
+% -----------------------------
+% IMPORTANT: spacing=false (pdftex-only feature); prevents LuaLaTeX-style fatal errors too.
+\usepackage[
+  final,
+  protrusion=true,
+  expansion=true,
+  tracking=true,
+  kerning=true,
+  spacing=false
+]{microtype}
+
+% -----------------------------
+% Colors + Graphics
+% -----------------------------
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{M4BBlue}{HTML}{1A365D}
+\definecolor{M4BOrange}{HTML}{FF6B35}
+\definecolor{M4BTurquoise}{HTML}{2EC4B6}
+\definecolor{M4BGrey}{HTML}{4A4E69}
+\definecolor{M4BLightGrey}{HTML}{F5F5F5}
+\definecolor{M4BRowLine}{HTML}{F5F5F5} % subtle row line color
+
+% -----------------------------
+% Fonts (XeLaTeX)
+% -----------------------------
+\usepackage{fontspec}
+
+$if(mainfont)$
+\setmainfont[
+  UprightFont    = *-Regular,
+  ItalicFont     = *-Italic,
+  BoldFont       = *-SemiBold,
+  BoldItalicFont = *-SemiBoldItalic
+]{$mainfont$}
+$endif$
+
+$if(sansfont)$
+\setsansfont[
+  UprightFont    = *-Regular,
+  ItalicFont     = *-Italic,
+  BoldFont       = *-Bold,
+  BoldItalicFont = *-Bold % fallback if BoldItalic isn't available
+]{$sansfont$}
+$endif$
+
+$if(monofont)$
+\setmonofont{$monofont$}
+$endif$
+
+% -----------------------------
+% Headings (Notfall-Puffer NUR für Überschriften)
+% -----------------------------
+\usepackage{titlesec}
+
+% Start/End to keep "sloppy" local to headings only
+\newcommand{\M4BHeadingFlexStart}{%
+  \begingroup
+  \pretolerance=2000\relax
+  \tolerance=3000\relax
+  \emergencystretch=2em\relax
+  \hyphenpenalty=10000\relax
+  \exhyphenpenalty=10000\relax
+  \sloppy
+}
+\newcommand{\M4BHeadingFlexEnd}{\endgroup}
+
+\titleformat{\section}
+  {\Large\bfseries\color{M4BBlue}}
+  {\thesection}{0.8em}{\M4BHeadingFlexStart}{\M4BHeadingFlexEnd}
+
+\titleformat{\subsection}
+  {\large\bfseries\color{M4BBlue}}
+  {\thesubsection}{0.8em}{\M4BHeadingFlexStart}{\M4BHeadingFlexEnd}
+
+\titleformat{\subsubsection}
+  {\normalsize\bfseries\color{M4BBlue}}
+  {\thesubsubsection}{0.8em}{\M4BHeadingFlexStart}{\M4BHeadingFlexEnd}
+
+\titlespacing*{\section}{0pt}{2.0ex plus 0.5ex}{1.2ex}
+\titlespacing*{\subsection}{0pt}{1.6ex plus 0.4ex}{1.0ex}
+\titlespacing*{\subsubsection}{0pt}{1.2ex plus 0.3ex}{0.8ex}
+
+% -----------------------------
+% Hyperlinks
+% -----------------------------
+\usepackage{xurl}
+\usepackage{hyperref}
+
+$if(linkcolor)$
+\definecolor{M4Blink}{HTML}{$linkcolor$}
+$else$
+\definecolor{M4Blink}{HTML}{4A4E69}
+$endif$
+
+\hypersetup{
+  hidelinks,
+  colorlinks=true,
+  linkcolor=M4Blink,
+  urlcolor=M4Blink,
+  citecolor=M4Blink
+}
+
+% -----------------------------
+% Tables
+% -----------------------------
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{calc}
+\usepackage{caption}
+\usepackage{etoolbox}
+
+% spacing around tables (Pandoc longtable)
+\setlength{\LTpre}{12pt}   % above table
+\setlength{\LTpost}{4pt}   % below table
+
+% booktabs hairline thickness
+\setlength{\heavyrulewidth}{0.8pt}
+\setlength{\lightrulewidth}{0.3pt}
+\setlength{\cmidrulewidth}{0.3pt}
+
+% cell padding / row height
+\setlength{\tabcolsep}{8pt}
+\renewcommand{\arraystretch}{1.25}
+
+% table font size
+\AtBeginEnvironment{longtable}{\small}
+\AtBeginEnvironment{tabular}{\small}
+\AtBeginEnvironment{tabularx}{\small}
+
+% caption styling
+\captionsetup{labelfont=bf,font=small,skip=8pt}
+
+% better text columns when needed
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+% Hairline used by TeX patcher (subtle row separators in tables)
+\newcommand{\m4bhairline}{\noalign{\color{M4BRowLine}\specialrule{0.3pt}{0pt}{0pt}\color{black}}}
+
+% -----------------------------
+% Header / Footer
+% -----------------------------
+\usepackage{fancyhdr}
+
+\fancypagestyle{mainstyle}{
+  \fancyhf{}
+  \fancyhead[L]{\includegraphics[height=1cm]{monkey4business_logo_quer.png}}
+  \fancyhead[R]{%
+    \raisebox{0.25cm}{\textcolor{M4BBlue}{\footnotesize\textit{$title$}}}
+  }
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0.4pt}
+}
+
+\fancypagestyle{plain}{\pagestyle{mainstyle}}
+\pagestyle{mainstyle}
+
+% -----------------------------
+% Pandoc header-includes
+% -----------------------------
+$if(header-includes)$
+$for(header-includes)$
+$header-includes$
+$endfor$
+$endif$
+
+\begin{document}
+
+$body$
+
+\end{document}

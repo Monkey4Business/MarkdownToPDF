@@ -1,0 +1,210 @@
+\documentclass[$if(fontsize)$$fontsize$$endif$]{article}
+
+% -----------------------------
+% Layout
+% -----------------------------
+\usepackage[margin=2.0cm]{geometry}
+
+% Header spacing (avoid "sticking" to content)
+\setlength{\headheight}{33pt}
+\setlength{\headsep}{22pt}
+
+% Paragraphs: left aligned, no indent, some vertical breathing room
+\usepackage{ragged2e}
+\RaggedRight
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% -----------------------------
+% Colors + Graphics
+% -----------------------------
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{M4BBlue}{HTML}{1A365D}
+\definecolor{M4BOrange}{HTML}{FF6B35}
+\definecolor{M4BTurquoise}{HTML}{2EC4B6}
+\definecolor{M4BGrey}{HTML}{4A4E69}
+\definecolor{M4BLightGrey}{HTML}{F5F5F5}
+\definecolor{M4BRowLine}{HTML}{E6E6E6} % etwas dunkler als F5F5F5 -> besser sichtbar im Druck
+
+% -----------------------------
+% Fonts (XeLaTeX): remap Bold -> SemiBold
+% -----------------------------
+\usepackage{fontspec}
+
+% -----------------------------
+% Micro-typography (XeLaTeX)
+% -----------------------------
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % safe default
+
+% -----------------------------
+% Language / Hyphenation (German)
+% -----------------------------
+\usepackage{polyglossia}
+\setmainlanguage{german}
+\setotherlanguage{english}
+
+% Targeted hyphenation exceptions (examples)
+\hyphenation{Mon-key4-Busi-ness}
+%\hyphenation{Mar-ket-po-si-tio-nie-rungs-stra-te-gie}
+%\hyphenation{Soft-ware-ent-wick-lungs-pro-zess}
+
+% -----------------------------
+% Emergency line-breaking (gentle)
+% -----------------------------
+\emergencystretch=2em     % biggest practical win against overfull boxes
+\tolerance=2000           % allow slightly looser lines before complaining
+\pretolerance=200         % hyphenate earlier if needed
+\hbadness=2000            % reduce noisy warnings
+\hfuzz=0.2pt              % ignore tiny overfulls
+
+$if(mainfont)$
+\setmainfont[
+  UprightFont    = *-Regular,
+  ItalicFont     = *-Italic,
+  BoldFont       = *-SemiBold,
+  BoldItalicFont = *-SemiBoldItalic
+]{$mainfont$}
+$endif$
+
+$if(sansfont)$
+\setsansfont[
+  UprightFont    = *-Regular,
+  ItalicFont     = *-Italic,
+  BoldFont       = *-Bold,
+  BoldItalicFont = *-Bold
+]{$sansfont$}
+$endif$
+
+$if(monofont)$
+\setmonofont{$monofont$}
+$endif$
+
+% -----------------------------
+% Headings typography (H1–H3)
+% -----------------------------
+\usepackage{titlesec}
+
+% headings: a bit more forgiving for long titles (only headings)
+\titleformat{\section}
+  {\Large\bfseries\color{M4BBlue}\raggedright}
+  {\thesection}{0.8em}{}
+
+\titleformat{\subsection}
+  {\large\bfseries\color{M4BBlue}\raggedright}
+  {\thesubsection}{0.8em}{}
+
+\titleformat{\subsubsection}
+  {\normalsize\bfseries\color{M4BBlue}\raggedright}
+  {\thesubsubsection}{0.8em}{}
+
+\titlespacing*{\section}{0pt}{2.0ex plus 0.5ex}{1.2ex}
+\titlespacing*{\subsection}{0pt}{1.6ex plus 0.4ex}{1.0ex}
+\titlespacing*{\subsubsection}{0pt}{1.2ex plus 0.3ex}{0.8ex}
+
+% -----------------------------
+% Hyperlinks (no boxes, brand color)
+% -----------------------------
+\usepackage{xurl}
+\usepackage{hyperref}
+
+$if(linkcolor)$
+\definecolor{M4Blink}{HTML}{$linkcolor$}
+$else$
+\definecolor{M4Blink}{HTML}{4A4E69}
+$endif$
+
+\hypersetup{
+  hidelinks,
+  colorlinks=true,
+  linkcolor=M4Blink,
+  urlcolor=M4Blink,
+  citecolor=M4Blink
+}
+
+% -----------------------------
+% Tables (global styling)
+% -----------------------------
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{calc}
+\usepackage{caption}
+\usepackage{etoolbox}
+
+% spacing around tables (Pandoc longtable)
+\setlength{\LTpre}{12pt}   % above table
+\setlength{\LTpost}{4pt}   % below table
+
+% longtable flush to text block (helps zebra not look wider)
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+
+% --- booktabs hairline thickness ---
+\setlength{\heavyrulewidth}{0.8pt}
+\setlength{\lightrulewidth}{0.3pt}
+\setlength{\cmidrulewidth}{0.3pt}
+
+% --- booktabs line color (corporate report look) ---
+\arrayrulecolor{M4BRowLine}
+
+% cell padding / row height
+\setlength{\tabcolsep}{8pt}
+\renewcommand{\arraystretch}{1.25}
+
+% table font size
+\AtBeginEnvironment{longtable}{\small}
+\AtBeginEnvironment{tabular}{\small}
+\AtBeginEnvironment{tabularx}{\small}
+
+% caption styling
+\captionsetup{labelfont=bf,font=small,skip=8pt}
+
+% better text columns when needed
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+% Zebra rows (very light) – avoid overhang
+%\AtBeginEnvironment{longtable}{\rowcolors{2}{M4BLightGrey}{white}}
+%\AtBeginEnvironment{tabular}{\rowcolors{2}{M4BLightGrey}{white}}
+%\AtBeginEnvironment{tabularx}{\rowcolors{2}{M4BLightGrey}{white}}
+
+% extra breathing room around non-longtable tables (rare with pandoc)
+\AtBeginEnvironment{tabular}{\vspace{6pt}}
+\AtEndEnvironment{tabular}{\vspace{6pt}}
+\AtBeginEnvironment{tabularx}{\vspace{6pt}}
+\AtEndEnvironment{tabularx}{\vspace{6pt}}
+
+% -----------------------------
+% Header / Footer
+% -----------------------------
+\usepackage{fancyhdr}
+
+\fancypagestyle{mainstyle}{
+  \fancyhf{}
+  \fancyhead[L]{\includegraphics[height=1cm]{monkey4business_logo_quer.png}}
+  \fancyhead[R]{\raisebox{0.25cm}{\textcolor{M4BBlue}{\footnotesize\textit{$title$}}}}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0.4pt}
+}
+
+\fancypagestyle{plain}{\pagestyle{mainstyle}}
+\pagestyle{mainstyle}
+
+% -----------------------------
+% Pandoc header-includes
+% -----------------------------
+$if(header-includes)$
+$for(header-includes)$
+$header-includes$
+$endfor$
+$endif$
+
+\begin{document}
+$body$
+\end{document}

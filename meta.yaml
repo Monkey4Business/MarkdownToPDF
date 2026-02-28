@@ -1,0 +1,21 @@
+---
+title: "Monkey4Business – Strategische Marketingkampagne"
+subtitle: "Software und Webentwicklung für alle Branchen"
+author:
+  - "Dirk Schäfauer"
+  - "Monkey4Business"
+date: "Februar 2026"
+lang: "de-DE"
+fontsize: 12pt
+mainfont: "Montserrat"
+sansfont: "Open Sans"
+monofont: "Courier New"
+toc: false
+toc-depth: 2
+colorlinks: true
+linkcolor: "1A365D"
+urlcolor: "1A365D"
+header-includes:
+  - "\\providecommand{\\tightlist}{\\setlength{\\itemsep}{0pt}\\setlength{\\parskip}{0pt}}"
+  - "\\newcounter{none}"
+---
