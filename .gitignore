@@ -3,3 +3,6 @@
 
 # NuGet Packages
 *.nupkg
+
+/out.patched.log
+/out.patched.pdf
