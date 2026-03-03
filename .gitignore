@@ -4,5 +4,9 @@
 # NuGet Packages
 *.nupkg
 
-/out.patched.log
+/out.*
 /out.patched.pdf
+/out.patched.aux
+/out.patched.tex
+/out.patched.toc
+/out.tex
