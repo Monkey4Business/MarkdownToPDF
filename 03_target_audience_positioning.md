@@ -2,7 +2,7 @@
 
 Basierend auf der allgemeinen Recherche zur Software- und Webentwicklungsbranche und der Information, dass Monkey4Business Software und Webseiten für alle Branchen erstellt, lässt sich eine erste Zielgruppenanalyse und Marktpositionierung ableiten. Diese Analyse dient als Grundlage für die Entwicklung einer gezielten und effektiven Brand-Kampagne.
 
-## 1. Zielgruppensegmentierung
+## Zielgruppensegmentierung
 
 Für ein Unternehmen wie Monkey4Business, das ein breites Spektrum an Dienstleistungen anbietet, ist eine Segmentierung der Zielgruppe entscheidend, um Marketingbemühungen zu fokussieren und maßgeschneiderte Lösungen anzubieten. Die Segmentierung kann nach verschiedenen Kriterien erfolgen, die im Folgenden in einer Tabelle zusammengefasst sind [1, 7].
 
@@ -34,13 +34,13 @@ Für ein Unternehmen wie Monkey4Business, das ein breites Spektrum an Dienstleis
 |                                  | Effizienzsteigerung, Kundenbindung, Markenpräsenz, Skalierbarkeit.         |
 +----------------------------------+----------------------------------------------------------------------------+
 
-## 2. Häufige Schmerzpunkte von Unternehmen
+## Häufige Schmerzpunkte von Unternehmen
 
 Unternehmen, die Software- und Webentwicklungsdienstleistungen suchen, stehen oft vor ähnlichen Herausforderungen. Monkey4Business kann diese Schmerzpunkte gezielt adressieren und sich als kompetenter Lösungsanbieter positionieren. Die häufigsten Probleme umfassen mangelnde Klarheit bei den Anforderungen, was zu Missverständnissen und Verzögerungen führen kann, sowie Kommunikationsprobleme zwischen Kunden und Entwicklern, die die Projektentwicklung behindern [11, 12, 13].\linebreak
 
 Ein weiterer signifikanter Schmerzpunkt ist der Umgang mit veralteten Systemen und sogenanntem "Legacy Code". Bestehende Systeme sind oft ineffizient, schwer zu warten und nicht mehr mit neuen Technologien kompatibel. Dies führt zu ineffizienten Prozessen, die durch moderne Software automatisiert werden könnten. Viele Unternehmen leiden zudem unter einer fehlenden oder schlecht funktionierenden Online-Präsenz, die potenzielle Kunden abschreckt. Sicherheitsbedenken, Skalierbarkeitsprobleme und die Sorge vor Budgetüberschreitungen sind weitere zentrale Herausforderungen, die Monkey4Business in seiner Kommunikation aufgreifen sollte.
 
-## 3. Marktpositionierungsstrategien für Monkey4Business
+## Marktpositionierungsstrategien für Monkey4Business
 
 Um sich im Wettbewerb zu differenzieren, kann Monkey4Business verschiedene Positionierungsstrategien verfolgen. Eine mögliche Strategie ist die Positionierung als **"Full-Service-Anbieter für alle Branchen"**. Dies betont die Vielseitigkeit und Anpassungsfähigkeit des Unternehmens, maßgeschneiderte Software- und Weblösungen für eine Vielzahl von Industrien zu liefern.
 

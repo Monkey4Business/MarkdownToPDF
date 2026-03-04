@@ -2,7 +2,7 @@
 
 Dieses Dokument definiert die grundlegenden Elemente der visuellen Identität für Monkey4Business, die konsistent über alle Kommunikationskanäle und Marketingmaterialien hinweg angewendet werden sollten.
 
-## 1. Logo
+## Logo
 
 Das Logo von Monkey4Business sollte die Kernwerte des Unternehmens widerspiegeln: Agilität, Innovation, Professionalität und Kundenorientierung. Basierend auf dem Kundenwunsch sollte das Logo einen Affen durch den die techniche Affinität, Dynamik und professionelle Exzellenz zum Ausdruck kommt. 
 
@@ -27,7 +27,7 @@ Um die Wirkung des Logos zu gewährleisten, sollte ein definierter Freiraum um d
 
 Um die Lesbarkeit zu gewährleisten, sollte das Logo nicht kleiner als 30mm (Print) bzw. 120px (digital) verwendet werden.
 
-## 2. Farbpalette
+## Farbpalette
 
 Die Farbpalette von Monkey4Business sollte Professionalität, Innovation und Dynamik ausstrahlen. Folgende Farbpalette wird empfohlen:
 
@@ -65,7 +65,7 @@ Für unterstützende Elemente, Grafiken und Akzente
 - **Neutrale Farben:**  
 Für Text, Hintergründe und subtile Designelemente
 
-## 3. Typografie
+## Typografie
 
 Die Typografie sollte die Balance zwischen Professionalität und moderner Dynamik widerspiegeln.
 
@@ -107,7 +107,7 @@ Für die digitale Anwendung können die Google Fonts Montserrat und Open Sans ve
 | **Buttons**             | Montserrat              | 16px/16pt               | SemiBold                |
 +-------------------------+-------------------------+-------------------------+-------------------------+
 
-## 4. Bildsprache
+## Bildsprache
 
 Die Bildsprache von Monkey4Business sollte modern, professionell und dynamisch sein.
 
@@ -134,7 +134,7 @@ Klare, informative Infografiken zur Visualisierung komplexer Konzepte und Daten.
 - Konsistente Bildbearbeitung mit leichter Erhöhung von Kontrast und Sättigung.
 - Bei Bedarf Anwendung eines leichten Farbfilters in den Primärfarben, um die Markenidentität zu stärken.
 
-## 5. Designelemente
+## Designelemente
 
 ### Raster und Layout
 
@@ -157,7 +157,7 @@ Gezielte Verwendung der Akzentfarben für wichtige Elemente.
 - Fließende Übergänge, die Professionalität und technische Kompetenz vermitteln.
 - Interaktive Elemente, die Engagement fördern.
 
-## 6. Anwendungsbeispiele
+## Anwendungsbeispiele
 
 ### Digitale Anwendungen
 
@@ -184,7 +184,7 @@ Auffällige, aber professionelle Designs mit klaren Call-to-Actions.
 - **Messestände:**  
 Großformatige Anwendung der Markenidentität mit fokussierten Botschaften und auffälligen visuellen Elementen.
 
-## 7. Do's and Dont's
+## Do's and Dont's
 
 ### Do's
 

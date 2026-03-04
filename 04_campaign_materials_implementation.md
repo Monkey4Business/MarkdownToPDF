@@ -1,10 +1,10 @@
-# Kampagnenmaterialien und Umsetzungsplan für Monkey4Business
+# Kampagnenmaterialien und Umsetzungsplan für \mbox{Monkey4Business}
 
 Dieses Dokument beschreibt die konkreten Kampagnenmaterialien und den Umsetzungsplan für die Brand-Kampagne von Monkey4Business. Es baut auf der zuvor entwickelten Markenidentität, Zielgruppenanalyse und Kampagnenstrategie auf.
 
-## 1. Kampagnenmaterialien
+## Kampagnenmaterialien
 
-### 1.1 Digitale Materialien
+### Digitale Materialien
 
 #### Website-Relaunch  
 
@@ -45,7 +45,7 @@ Visuelle Darstellung komplexer Themen wie "Der Softwareentwicklungsprozess", "RO
 - **Kurze Video-Tutorials:**  
 Erklärvideos zu spezifischen technischen Themen oder Lösungsansätzen.
 
-### 1.2 Offline-Materialien
+### Offline-Materialien
 
 #### Printmaterialien
 
@@ -65,9 +65,9 @@ Für Branchenveranstaltungen und Konferenzen.
 - **Giveaways:**  
 Nützliche Werbegeschenke mit Unternehmenslogo (z.B. USB-Sticks, Notizbücher).
 
-## 2. Umsetzungsplan
+## Umsetzungsplan
 
-### 2.1 Zeitplan
+### Zeitplan
 
 +--------------------------+--------------+----------------------------------------------+
 | Phase                    | Zeitraum     | Aktivitäten                                  |
@@ -96,7 +96,7 @@ Nützliche Werbegeschenke mit Unternehmenslogo (z.B. USB-Sticks, Notizbücher).
 |                          |              | kontinuierliche Optimierung                  |
 +--------------------------+--------------+----------------------------------------------+
 
-### 2.2 Budget-Allokation
+### Budget-Allokation
 
 +--------------------------+------------------------+----------------------------------------------+
 | Bereich                  | Anteil am Gesamtbudget | Hauptposten                                  |
@@ -120,7 +120,7 @@ Nützliche Werbegeschenke mit Unternehmenslogo (z.B. USB-Sticks, Notizbücher).
 |                          |                        | Pressearbeit                                 |
 +--------------------------+------------------------+----------------------------------------------+
 
-### 2.3 Verantwortlichkeiten
+### Verantwortlichkeiten
 
 Für eine erfolgreiche Umsetzung der Kampagne sollten klare Verantwortlichkeiten definiert werden:
 
@@ -137,7 +137,7 @@ Nachverfolgung der generierten Leads, Feedback zur Kampagneneffektivität
 - **Externe Partner:**  
 Spezialisierte Agenturen für Design, Webentwicklung, SEO etc.
 
-### 2.4 Erfolgsmessung und KPIs
+### Erfolgsmessung und KPIs
 
 Die Erfolgsmessung erfolgt anhand der definierten KPIs:
 
@@ -156,7 +156,7 @@ Die Erfolgsmessung erfolgt anhand der definierten KPIs:
 | **Kundenzufriedenheit**     | Kundenbefragungen        | Durchschnittliche Bewertung >4,5/5             |
 +-----------------------------+--------------------------+------------------------------------------------+
 
-### 2.5 Risikomanagement
+### Risikomanagement
 
 +-------------------------------------+-----------------------------------------------------------------------+
 | Risiko                              | Gegenmaßnahme                                                         |
@@ -172,7 +172,7 @@ Die Erfolgsmessung erfolgt anhand der definierten KPIs:
 | **Technische Probleme**             | Gründliche Tests vor dem Launch, technischer Support                  |
 +-------------------------------------+-----------------------------------------------------------------------+
 
-## 3. Nächste Schritte
+## Nächste Schritte
 
 1. **Finalisierung der Markenidentität:**  
 Abstimmung und Freigabe des Logos und der visuellen Elemente
