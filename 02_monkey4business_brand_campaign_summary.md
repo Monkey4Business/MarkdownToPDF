@@ -11,7 +11,7 @@ Diese umfassende Brand-Kampagne wurde für Monkey4Business entwickelt, ein Unter
 Monkey4Business steht für die Fähigkeit, sich schnell an neue digitale Anforderungen anzupassen und maßge&shy;schneiderte, zukunftssichere Lösungen zu liefern, die Unternehmen in ihrer digitalen Entwicklung voranbringen.
 
 ### Kernbotschaft (Tagline)
-**"Monkey4Business: Ihre digitale Evolution. \textcolor{M4BOrange}{\textbf{Agil}}. \textcolor{M4BTurquoise}{\textbf{Innovativ}}. \textcolor{M4BGrey}{\textbf{Maßgeschneidert}}."**
+**"Monkey4Business: Ihre digitale Evolution. \textcolor{MFourBOrange}{\textbf{Agil}}. \textcolor{MFourBTurquoise}{\textbf{Innovativ}}. \textcolor{MFourBGrey}{\textbf{Maßgeschneidert}}."**
 
 ### Markenwerte
 - **Agilität:**  

@@ -6,7 +6,7 @@
 \usepackage[margin=2.0cm]{geometry}
 
 % Header spacing
-\setlength{\headheight}{33pt}
+\setlength{\headheight}{34pt}
 \setlength{\headsep}{22pt}
 
 % Paragraphs
@@ -16,16 +16,47 @@
 \setlength{\parskip}{6pt}
 
 % -----------------------------
+% Language
+% -----------------------------
+\usepackage[ngerman]{babel}
+
+% -----------------------------
+% Microtype (XeLaTeX-safe)
+% - Only protrusion is reliably supported with XeLaTeX.
+% - Disable pdftex-only features (kerning/spacing) to avoid fatal errors.
+% -----------------------------
+%\usepackage[
+%  final,
+%  protrusion=true,
+%  expansion=false,
+%  tracking=false,
+%  kerning=false,
+%  spacing=false
+%]{microtype}
+
+% -----------------------------
 % Colors + Graphics
 % -----------------------------
 \usepackage{xcolor}
 \usepackage{graphicx}
 
-\definecolor{M4BBlue}{HTML}{1A365D}
-\definecolor{M4BOrange}{HTML}{FF6B35}
-\definecolor{M4BTurquoise}{HTML}{2EC4B6}
-\definecolor{M4BGrey}{HTML}{4A4E69}
-\definecolor{M4BRowLine}{HTML}{E6E6E6} % subtle row line color for print % subtle table row separator
+% Brand colors (KEEP THESE NAMES STABLE)
+\definecolor{MFourBBlue}{HTML}{1A365D}
+\definecolor{MFourBOrange}{HTML}{FF6B35}
+\definecolor{MFourBTurquoise}{HTML}{2EC4B6}
+\definecolor{MFourBGrey}{HTML}{4A4E69}
+\definecolor{MFourBLightGrey}{HTML}{F5F5F5}
+
+% Table hairline color (print-friendly)
+\definecolor{MFourBRowLine}{HTML}{E6E6E6}
+
+% Hairline inserted by add-mainrow-rules.pl
+\newcommand{\MFourBHairline}{%
+  \noalign{%
+    \color{MFourBRowLine}\hrule height 0.25pt%
+    \color{black}%
+  }%
+}
 
 % -----------------------------
 % Fonts (XeLaTeX)
@@ -55,26 +86,29 @@ $if(monofont)$
 $endif$
 
 % -----------------------------
-% Language
-% -----------------------------
-\usepackage{polyglossia}
-\setmainlanguage{german}
-
-% -----------------------------
-% Headings typography
+% Headings typography + Notfall-Puffer NUR für Überschriften
 % -----------------------------
 \usepackage{titlesec}
 
+\newcommand{\MFourBHeadingFlex}{%
+  \pretolerance=2000\relax
+  \tolerance=3000\relax
+  \emergencystretch=2em\relax
+  \hyphenpenalty=10000\relax
+  \exhyphenpenalty=10000\relax
+  \sloppy
+}
+
 \titleformat{\section}
-  {\Large\bfseries\color{M4BBlue}}
+  {\MFourBHeadingFlex\Large\bfseries\color{MFourBBlue}}
   {\thesection}{0.8em}{}
 
 \titleformat{\subsection}
-  {\large\bfseries\color{M4BBlue}}
+  {\MFourBHeadingFlex\large\bfseries\color{MFourBBlue}}
   {\thesubsection}{0.8em}{}
 
 \titleformat{\subsubsection}
-  {\normalsize\bfseries\color{M4BBlue}}
+  {\MFourBHeadingFlex\normalsize\bfseries\color{MFourBBlue}}
   {\thesubsubsection}{0.8em}{}
 
 \titlespacing*{\section}{0pt}{2.0ex plus 0.5ex}{1.2ex}
@@ -88,17 +122,17 @@ $endif$
 \usepackage{hyperref}
 
 $if(linkcolor)$
-\definecolor{M4Blink}{HTML}{$linkcolor$}
+\definecolor{MFourBLink}{HTML}{$linkcolor$}
 $else$
-\definecolor{M4Blink}{HTML}{4A4E69}
+\definecolor{MFourBLink}{HTML}{4A4E69}
 $endif$
 
 \hypersetup{
   hidelinks,
   colorlinks=true,
-  linkcolor=M4Blink,
-  urlcolor=M4Blink,
-  citecolor=M4Blink
+  linkcolor=MFourBLink,
+  urlcolor=MFourBLink,
+  citecolor=MFourBLink
 }
 
 % -----------------------------
@@ -114,28 +148,22 @@ $endif$
 \usepackage{caption}
 \usepackage{etoolbox}
 
-% Spacing around longtables (Pandoc uses longtable a lot)
 \setlength{\LTpre}{12pt}
 \setlength{\LTpost}{4pt}
 
-% Rule thickness (booktabs)
 \setlength{\heavyrulewidth}{0.8pt}
 \setlength{\lightrulewidth}{0.3pt}
 \setlength{\cmidrulewidth}{0.3pt}
 
-% Cell padding / row height
 \setlength{\tabcolsep}{8pt}
 \renewcommand{\arraystretch}{1.25}
 
-% Slightly smaller table font
 \AtBeginEnvironment{longtable}{\small}
 \AtBeginEnvironment{tabular}{\small}
 \AtBeginEnvironment{tabularx}{\small}
 
-% Caption styling
-\captionsetup{labelfont=bf, font=small, skip=8pt}
+\captionsetup{labelfont=bf,font=small,skip=8pt}
 
-% Nice text columns when needed
 \newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
 
 % -----------------------------
@@ -146,9 +174,7 @@ $endif$
 \fancypagestyle{mainstyle}{
   \fancyhf{}
   \fancyhead[L]{\includegraphics[height=1cm]{monkey4business_logo_quer.png}}
-  \fancyhead[R]{%
-    \raisebox{0.40cm}{\textcolor{M4BBlue}{\footnotesize\textit{$title$}}}
-  }
+  \fancyhead[R]{\raisebox{0.25cm}{\textcolor{MFourBBlue}{\footnotesize\textit{$title$}}}}
   \fancyfoot[C]{\thepage}
   \renewcommand{\headrulewidth}{0.4pt}
   \renewcommand{\footrulewidth}{0.4pt}

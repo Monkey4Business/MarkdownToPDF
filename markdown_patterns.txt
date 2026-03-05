@@ -17,7 +17,7 @@ Tabellen:
 +-------------------------+--------------+----------------------------------------------+
 
 Farben:
-\textcolor{M4BOrange}{TEXT}
-\textcolor{M4BTurquoise}{TEXT}
-\textcolor{M4BGrey}{TEXT}
-\textcolor{M4BBlue}{TEXT}
+\textcolor{MFourBOrange}{TEXT}
+\textcolor{MFourBTurquoise}{TEXT}
+\textcolor{MFourBGrey}{TEXT}
+\textcolor{MFourBBlue}{TEXT}

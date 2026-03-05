@@ -1,4 +1,4 @@
-# Rechercheergebnisse: Software- und Webentwicklungsbranche & Branding-Strategien
+# Rechercheergebnisse: Software- und\linebreak Webentwicklungsbranche & Branding-Strategien
 
 ## Branchentrends (Software- und Webentwicklung)
 

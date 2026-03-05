@@ -1,4 +1,4 @@
-# Kampagnenmaterialien und Umsetzungsplan für \mbox{Monkey4Business}
+# Kampagnenmaterialien und Umsetzungsplan für\linebreak Monkey4Business
 
 Dieses Dokument beschreibt die konkreten Kampagnenmaterialien und den Umsetzungsplan für die Brand-Kampagne von Monkey4Business. Es baut auf der zuvor entwickelten Markenidentität, Zielgruppenanalyse und Kampagnenstrategie auf.
 

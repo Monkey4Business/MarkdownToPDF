@@ -27,28 +27,16 @@ pandoc \
   --template=custom.tex
 
 say "2) Patch TeX (table hairlines)"
-# NOTE: script reads STDIN and writes STDOUT
-perl add-mainrow-rules.pl < "$OUT_TEX" > "$PATCHED_TEX"
-
-# Safety check (so we never run XeLaTeX on an empty file)
-if [[ ! -s "$PATCHED_TEX" ]]; then
-  echo "ERROR: $PATCHED_TEX was not created or is empty." >&2
-  exit 1
-fi
+perl ./add-mainrow-rules.pl "$OUT_TEX" "$PATCHED_TEX"
 
 say "3) XeLaTeX (2 runs)"
-{
-  xelatex -interaction=nonstopmode -halt-on-error "$PATCHED_TEX"
-  xelatex -interaction=nonstopmode -halt-on-error "$PATCHED_TEX"
-} > "$LOG" 2>&1 || {
-  echo "ERROR: XeLaTeX failed. Last 120 lines of $LOG:" >&2
-  tail -n 120 "$LOG" >&2 || true
-  exit 1
-}
+# Always write a log file (even on failure)
+( xelatex -interaction=nonstopmode -halt-on-error "$PATCHED_TEX"; \
+  xelatex -interaction=nonstopmode -halt-on-error "$PATCHED_TEX" ) 2>&1 | tee "$LOG" > /dev/null
 
 say "4) Publish PDF"
 if [[ -f "$PATCHED_PDF" ]]; then
-  cp -f "$PATCHED_PDF" "$FINAL_PDF"
+  mv -f "$PATCHED_PDF" "$FINAL_PDF"
   echo "OK: $FINAL_PDF"
 else
   echo "ERROR: $PATCHED_PDF not found. Build failed." >&2
