@@ -36,7 +36,7 @@ say "3) XeLaTeX (2 runs)"
 
 say "4) Publish PDF"
 if [[ -f "$PATCHED_PDF" ]]; then
-  mv -f "$PATCHED_PDF" "$FINAL_PDF"
+  cp "$PATCHED_PDF" "$FINAL_PDF"
   echo "OK: $FINAL_PDF"
 else
   echo "ERROR: $PATCHED_PDF not found. Build failed." >&2
@@ -44,3 +44,24 @@ else
   tail -n 120 "$LOG" >&2 || true
   exit 1
 fi
+
+DEBUG_DIR="debug"
+mkdir -p "$DEBUG_DIR"
+
+move_if_exists () {
+  local f="$1"
+  if [[ -f "$f" ]]; then
+    mv "$f" "$DEBUG_DIR/"
+    echo "Moved $f -> $DEBUG_DIR/"
+  else
+    echo "Skip (not found): $f"
+  fi
+}
+
+move_if_exists out.tex
+move_if_exists out.patched.aux
+move_if_exists out.patched.log
+move_if_exists out.patched.out
+move_if_exists out.patched.pdf
+move_if_exists out.patched.tex
+move_if_exists out.patched.toc
