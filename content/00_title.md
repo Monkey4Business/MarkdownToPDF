@@ -2,7 +2,7 @@
 \begin{center}
 \vspace*{2cm}
 
-\includegraphics[height=4cm]{monkey4business_logo.png}\par
+\includegraphics[height=5cm]{images/monkey4business_logo_white.pdf}\par
 \vspace{1cm}
 
 {\Huge\bfseries Brand Kampagne für Monkey4Business\par}
