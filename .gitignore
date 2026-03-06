@@ -1,5 +1,5 @@
 # Build results
-[Dd]ebugging/
+[Dd]ebug/
 
 # NuGet Packages
 *.nupkg
@@ -8,6 +8,5 @@ out.*
 *.aux
 *.log
 *.out
-*.pdf
 *.tex
 *.toc
