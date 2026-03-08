@@ -1,9 +1,6 @@
 # Build results
 [Dd]ebug/
 
-# NuGet Packages
-*.nupkg
-
 out.*
 *.aux
 *.log
